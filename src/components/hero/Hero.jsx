@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedinIn, FaPlay } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
-import profileImg from "../../assets/profile_img.jpeg";
+import profileImg from "../../assets/PP.png";
 
 /**
  * Hero Component - Landing section of the portfolio
@@ -15,7 +15,7 @@ const Hero = ({ darkMode }) => {
   return (
     <div id="home" className={`${darkMode ? 'bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white' : 'bg-gradient-to-r from-green-200 to-blue-200 text-gray-900'} w-full`}>
       <div className="container mx-auto px-4 py-10 flex flex-row items-center justify-center min-h-screen gap-6 sm:gap-4">
-        
+
         {/* Left Section - Profile information and actions */}
         <div className="flex-1 w-full md:w-1/2 flex flex-col justify-center items-start gap-4 sm:gap-2 text-left">
           <h2 className="text-5xl font-bold md:text-4xl sm:text-2xl exsm:text-xl">
@@ -23,15 +23,14 @@ const Hero = ({ darkMode }) => {
           </h2>
           {/* Animated typing effect for roles */}
           <TypeAnimation
-            sequence={["Web Developer", 2000, "Freelancer", 2000, ""]}
+            sequence={["Full Stack Developer", 2000, "MERN Specialist", 2000, "Backend Developer", 2000, "Frontend Developer", 2000, ""]}
             speed={30}
             wrapper="h2"
             repeat={Infinity}
             className="text-yellow-500 text-4xl font-bold md:text-3xl sm:text-2xl exsm:text-lg"
           />
           <p className="text-lg text-gray-700 md:text-base sm:text-sm max-w-xl">
-          Specializing in full-stack web development with expertise in MongoDB, Express.js, React, and Node.js. Focused on building scalable architectures, efficient APIs, and responsive user interfaces.
-
+            Full-Stack Developer expertise in the MERN stack (MongoDB, Express.js, React, Node.js). I design and deliver high-performance, scalable web applications with robust backend architectures, RESTful APIs, and modern, responsive user interfaces. Committed to writing clean, maintainable code and delivering exceptional user experiences.
           </p>
 
           {/* Action buttons */}
@@ -69,11 +68,11 @@ const Hero = ({ darkMode }) => {
 
         {/* Right Section - Profile image */}
         <div className="flex-1 w-full md:w-1/2 flex justify-center items-center relative">
-          <div className="relative w-full max-w-sm sm:max-w-xs">
+          <div className="relative w-96 h-96 sm:w-80 sm:h-80">
             <img
               src={profileImg}
               alt="Profile"
-              className="w-full h-auto rounded-full object-cover"
+              className="w-full h-full rounded-full object-cover object-top"
             />
           </div>
         </div>

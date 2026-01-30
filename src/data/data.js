@@ -7,19 +7,19 @@ import LearningEdge from '../assets/learningedge.jpeg';
 export const data = [
    {
     id: 1,
+  img: LearningEdge,
+    title: "Learning Edge",
+    desc: "Learning Edge is a dynamic educational platform that provides interactive learning experiences and cutting-edge resources for students and educators.",
+    link: "https://learningedge.vercel.app/",
+    git: "https://github.com/Anantmishra121/LearningEdge--A-full-stack-learning-Platform",
+  },
+  {
+    id: 2,
   img: quirex,
     title: "Quirex",
     desc: "Quirex is a modern real estate website featuring property listings, advanced search filters, and an intuitive user interface for buyers and sellers.",
     link: "/",
-    git: "/",
-  },
-  {
-    id: 2,
-  img: LearningEdge,
-    title: "Learning Edge",
-    desc: "Learning Edge is a dynamic educational platform that provides interactive learning experiences and cutting-edge resources for students and educators.",
-    link: "/",
-    git: "/",
+    git: "https://github.com/Anantmishra121/Quirex-A-Real-Estate-Plateform",
   }
  
   
