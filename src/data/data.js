@@ -1,8 +1,8 @@
 // Project data for the portfolio Work section
 // Contains project information including images, titles, descriptions, and links
 
-import quirex from '../assets/quirex.jpeg';
-import LearningEdge from '../assets/learningedge.jpeg';
+import quirex from '../assets/Quirex.jpg';
+import LearningEdge from '../assets/LearningEdge.jpg';
 
 export const data = [
    {
